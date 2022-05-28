@@ -1,0 +1,90 @@
+*,.container{
+    font-size: 20px;
+    font-family:Tahoma,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body-head{
+    text-align: center;
+    font-size: 70px;
+    color:black;
+    padding: 50px;
+    font-family: cursive;
+}
+.body-list{
+    overflow: auto;
+    display: relative;
+}
+.section{
+    
+    background-color: gray;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    border: 3px solid black;
+    box-sizing: border-box;
+    
+}
+.section-title{
+    position: relative;
+    left: 55%;
+    padding: 2%;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    border: 3px solid black;
+    border-right: 2.75px solid black;
+    border-top: none;  
+}
+#Chicken {
+    background-color:blue;
+}
+#Beef {
+    background-color:rgb(255, 165, 0);
+}
+#Sushi {
+    background-color:green;
+}
+.section-body{
+    
+    margin:5%;
+}
+
+
+@media screen and (max-width:767px) {
+    .section{
+        float:none;
+        width: 95%;
+        margin-top: 10px;
+    }
+    .section-title{
+        width: 35%;
+        left:60.15%;
+       
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    *{
+        font-size: 18px;
+    }
+    .section{
+        width: 46%;
+        
+    }
+    .section:nth-child(3){
+        position: relative;
+        top:10px;
+        clear: left;
+        float:none;
+        width:94.5%
+    }
+    .section:nth-child(3) .section-title{
+        width: 20%;
+        left:75.5%;
+   
+    }
+    
+}
