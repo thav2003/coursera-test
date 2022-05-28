@@ -38,13 +38,13 @@
     border-top: none;  
 }
 #Chicken {
-    background-color:blue;
+    background-color:#f17f7;
 }
 #Beef {
-    background-color:rgb(255, 165, 0);
+    background-color:#d14848d5;
 }
 #Sushi {
-    background-color:green;
+    background-color:rgb(211, 202, 125);
 }
 .section-body{
     
